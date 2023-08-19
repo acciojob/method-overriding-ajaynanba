@@ -6,15 +6,15 @@ public class Main {
         obj.meth();
 
     }
+}
 
-     static class A{
+class A{
         public void meth(){
             System.out.println("Invoking method from class A");
         }
     }
-    static class B extends A{
+class B extends A{
         public void meth(){
             System.out.println("Method is overridden in Extendend class B");
         }
     }
-}
